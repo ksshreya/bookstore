@@ -1,0 +1,43 @@
+th {
+    background-color: paleturquoise;
+}
+
+.menu {
+    background-color: palegoldenrod;
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+table {
+    height: 95vh;
+    width: 65vw;
+    justify-self: center;
+    border-collapse: collapse;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+th {
+    padding: 30px;
+    border: 1px solid black;
+}
+
+td {
+    text-align: center;
+    padding: 25px;
+    border: 1px solid black;
+    font-weight: bolder;
+}
+
+iframe {
+    border: none;
+    width: 100%;
+    height: 275px;
+}

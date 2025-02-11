@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Registration</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <br>
+        <label for="ph-no">Phone Number:</label>
+        <input type="text" id="ph-no" name="ph-no">
+        <br>
+        <br>
+        <label for="sex">Sex:</label>
+        <input type="radio" id="male" name="sex">Male
+        <input type="radio" id="femal" name="sex">Female
+        <input type="radio" id="others" name="sex">Others
+        <br>
+        <br>
+        <label for="ph-no">Date of Birth:</label>
+        <input type="number" min="1" max="31" step="1">Day
+        <input type="number" min="1" max="12" step="1">Month
+        <input type="number" min="1950" max="2025" step="1">Year
+        <br>
+        <br>
+        <label for="languages">Languages Known:</label>
+        <input type="checkbox" name="eng">English
+        <input type="checkbox" name="tel">Telugu
+        <input type="checkbox" name="hin">Hindi
+        <input type="checkbox" name="tam">Tamil
+        <br>
+        <br>
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" cols="30"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Register">
+    </form>
+</body>
+
+</html>
